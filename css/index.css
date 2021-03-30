@@ -1,10 +1,32 @@
+@keyframes fade_in_hero {
+   0% { opacity: 0; }
+   100% { opacity: 1; }
+}
+
+.effect_fade_in {
+   animation: fade_in_hero 2s;
+}
+
 #hero {
+   position: relative;
    width: 100%;
    height: 100vh;
+}
+#hero_bg {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
    background-image: url(../img/hero.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .hero_wrap {
-   position: relative;
+   position: absolute;
+   top: 0;
+   left: 0;
    width: 100%;
    height: 100%;
    background-color: rgba(0, 0, 0, 0.6);
