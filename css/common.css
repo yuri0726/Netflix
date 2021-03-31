@@ -1,49 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 
-body { 
-      font-family: 'Noto Sans KR';
-      font-size: 16px;
-      font-weight: 400;
-      color:rgb(255, 255, 255); 
-      background-color: rgb(0, 0, 0);
-      -webkit-font-smoothing: antialiased; 
+body {
+  font-family: "Noto Sans KR";
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  -webkit-font-smoothing: antialiased;
 }
 
-div, ul, li {
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
+div,
+ul,
+li {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 a {
-      text-decoration: none;
-      color: rgb(255, 255, 255);
-      cursor: pointer;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
 }
-button { cursor: pointer; }
-button:focus { outline: none; }
+button {
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
 
 /* Text Style */
 h1 {
-      font-family: 'Noto Sans KR';
-      font-size: 64px;
-      line-height: 1.2;
-      font-weight: 700;
+  font-family: "Noto Sans KR";
+  font-size: 64px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+h2 {
+  font-family: "Noto Sans KR";
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 700;
 }
 h3 {
-      font-family: 'Noto Sans KR';
-      font-size: 26px;
-      line-height: 1.2;
-      font-weight: 400;
+  font-family: "Noto Sans KR";
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 400;
 }
 h4 {
-      font-family: 'Noto Sans KR';
-      font-size: 19.2px;
-      line-height: 1.2;
-      font-weight: 400;
+  font-family: "Noto Sans KR";
+  font-size: 19.2px;
+  line-height: 1.2;
+  font-weight: 400;
 }
 p {
-      font-family: 'Noto Sans KR';
-      font-size: 16px;
-      line-height: 1.2;
-      font-weight: 400;
+  font-family: "Noto Sans KR";
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
 }
