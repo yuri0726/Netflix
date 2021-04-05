@@ -59,3 +59,91 @@ p {
   line-height: 1.2;
   font-weight: 400;
 }
+
+/* Tablet PC Landscape */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  h1 {
+    font-family: "Noto Sans KR";
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  h2 {
+    font-family: "Noto Sans KR";
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  h3 {
+    font-family: "Noto Sans KR";
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  h4 {
+    font-family: "Noto Sans KR";
+    font-size: 19.2px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+}
+
+/* Tablet PC Portrait */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-family: "Noto Sans KR";
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  h2 {
+    font-family: "Noto Sans KR";
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  h3 {
+    font-family: "Noto Sans KR";
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  h4 {
+    font-family: "Noto Sans KR";
+    font-size: 19.2px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+}
+
+/* Mobile Landscape */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  h1 {
+    font-family: "Noto Sans KR";
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  h2 {
+    font-family: "Noto Sans KR";
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  h3 {
+    font-family: "Noto Sans KR";
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  h4 {
+    font-family: "Noto Sans KR";
+    font-size: 19.2px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+}
+
+/* Mobile Portrait */
+@media only screen and (max-width: 480px) {
+}
