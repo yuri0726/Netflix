@@ -138,6 +138,9 @@
 .tv_title {
   margin: 0 0 20px;
 }
+.tv_subtitle br {
+  display: none;
+}
 .tv_right {
   position: relative;
   width: 50%;
@@ -239,6 +242,9 @@
 }
 .device_title {
   margin: 0 0 20px;
+}
+.device_subtitle br {
+  display: none;
 }
 .device_right {
   position: relative;
@@ -471,6 +477,9 @@ footer {
   .tv_subtitle {
     text-align: center;
   }
+  .tv_subtitle br {
+    display: block;
+  }
   .tv_right {
     width: 100%;
     height: 500px;
@@ -529,6 +538,9 @@ footer {
   }
   .device_subtitle {
     text-align: center;
+  }
+  .device_subtitle br {
+    display: block;
   }
   .device_right {
     width: 100%;
@@ -624,6 +636,9 @@ footer {
   .tv_subtitle {
      text-align: center;
   }
+  .tv_subtitle br {
+    display: block;
+  }
   .tv_right {  
     width: 100%;
     height: 250px;
@@ -662,7 +677,7 @@ footer {
    text-align: center;
  }
   .offline_left_box {
-    width: 240px;
+    width: 250px;
     height: 72px;
     transform: translate(-50%,0);
     left: 50%;
@@ -699,6 +714,9 @@ footer {
  .device_subtitle {
    text-align: center;
  }
+ .device_subtitle br {
+  display: block;
+}
   .device_right {
     width: 100%;
     height: 250px;
@@ -827,6 +845,9 @@ footer {
 .tv_subtitle {
    text-align: center;
 }
+.tv_subtitle br {
+  display: block;
+}
   .tv_right {
    width: 100%;
     height: 250px;
@@ -865,7 +886,7 @@ footer {
    text-align: center;
  }
   .offline_left_box {
-    width: 240px;
+    width: 250px;
     height: 72px;
     transform: translate(-50%,0);
     left: 50%;
@@ -904,6 +925,9 @@ footer {
    text-align: center;
    margin: 0 0 10px;
  }
+ .device_subtitle br {
+  display: block;
+}
   .device_right {
     width: 100%;
     height: 250px;
