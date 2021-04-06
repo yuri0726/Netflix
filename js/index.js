@@ -16,7 +16,8 @@ function changeBg() {
       if ( imgNum != imgNumPrev )
       break;
    }
-
+   
+   if ( screen.width > 480 ) {
    document.getElementById('hero_bg').style = "background-image: url(img/poster_" + imgNum + ".jpg);";
 
    document.getElementById('hero_bg').classList.remove('effect_fade_in');
@@ -24,6 +25,16 @@ function changeBg() {
    document.getElementById('hero_bg').classList.add('effect_fade_in');
    
    imgNumPrev = imgNum;
+   } 
+   else {
+      document.getElementById('hero_bg').style = "background-image: url(img/poster_m_" + imgNum + ".jpg);";
+
+      document.getElementById('hero_bg').classList.remove('effect_fade_in');
+      void document.getElementById('hero_bg').offsetWidth; // 초기화 시켜줌
+      document.getElementById('hero_bg').classList.add('effect_fade_in');
+      
+      imgNumPrev = imgNum;
+   }
 
 };
 
