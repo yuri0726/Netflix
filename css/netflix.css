@@ -913,7 +913,7 @@ footer {
     height: 30px;
   }
   .hero_subtitle {
-    margin: 0 0 70px;
+    margin: 0 0 40px;
   }
   .hero_subtitle br {
     display: block;
@@ -928,11 +928,15 @@ footer {
   }
   .hero_submit {
     height: 40px;
-    margin: 10px 0 0;
+    margin: 10px 0 20px;
     border-radius: 4px;
   }
-  .hero_detail, .hero_detail_2 {
-    margin: 20px;
+  .hero_detail {
+    margin: 10px 10px 0;
+    word-break: keep-all;
+  }
+  .hero_detail_2 {
+    margin: 10px;
     word-break: keep-all;
   }
   
