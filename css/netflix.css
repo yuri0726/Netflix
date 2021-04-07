@@ -50,7 +50,7 @@ html {
 }
 .main_logo {
   width: 700px;
-  fill: rgb(229, 9, 20);
+  /* fill: rgb(229, 9, 20);   */
 }
 .main_login {
   position: absolute;
