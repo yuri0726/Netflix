@@ -72,3 +72,16 @@ var changeHero = setInterval(changeBg, 5000);
          faqOpenState[target] = true;
       };
    }
+
+// Footer Language Select
+   
+   function languageChange() {
+      
+      if ( document.getElementById('language').value == "english" ) {
+         document.location = "https://www.netflix.com/kr-en/"
+      }
+      else {
+         document.location = "https://www.netflix.com/kr/"
+      }
+
+   }
