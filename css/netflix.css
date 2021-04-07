@@ -901,6 +901,9 @@ footer {
       right: 20px;
    }
   /* Hero */
+  #hero_bg {
+    background-image: url(../img/poster_m.jpg);
+  }
   .gnb { padding: 0 20px; }
   .gnb_logo {
     height: 30px;
