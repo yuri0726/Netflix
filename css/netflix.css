@@ -84,6 +84,9 @@ html {
   transform: rotate(45deg) translate(-50%, 0);
   animation: arrow_down infinite 1.5s;
 }
+.arrow_down:hover {
+  cursor: pointer;
+}
 
 #hero {
   position: relative;
