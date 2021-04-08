@@ -62,60 +62,142 @@ p {
 
 /* Tablet PC Landscape 가로 */
 
-@media only screen and (min-width:1024px) and (max-width:1279px) {
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  h1 {
+    font-family: "Noto Sans KR";
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
 
-  h1 { font-family: 'Noto Sans KR'; font-size: 50px; line-height: 1.2; font-weight: 700; }
-  
-  h2 { font-family: 'Noto Sans KR'; font-size: 40px; line-height: 1.2; font-weight: 500; }
-  
-  h3 { font-family: 'Noto Sans KR'; font-size: 20px; line-height: 1.4; font-weight: 400; }
-  
-  h4 { font-family: 'Noto Sans KR'; font-size: 19.2px; line-height: 1.4; font-weight: 400; }
-  
+  h2 {
+    font-family: "Noto Sans KR";
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 500;
+  }
+
+  h3 {
+    font-family: "Noto Sans KR";
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+
+  h4 {
+    font-family: "Noto Sans KR";
+    font-size: 19.2px;
+    line-height: 1.4;
+    font-weight: 400;
+  }
 }
-  
+
 /* Tablet PC Portrait 세로 */
 
-@media only screen and (min-width:768px)and (max-width:1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-family: "Noto Sans KR";
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
 
-h1 { font-family: 'Noto Sans KR'; font-size: 50px; line-height: 1.2; font-weight: 700; }
+  h2 {
+    font-family: "Noto Sans KR";
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 500;
+  }
 
-h2 { font-family: 'Noto Sans KR'; font-size: 40px; line-height: 1.2; font-weight: 500; }
+  h3 {
+    font-family: "Noto Sans KR";
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 400;
+  }
 
-h3 { font-family: 'Noto Sans KR'; font-size: 20px; line-height: 1.4; font-weight: 400; }
-
-h4 { font-family: 'Noto Sans KR'; font-size: 19.2px; line-height: 1.4; font-weight: 400; }
-  
+  h4 {
+    font-family: "Noto Sans KR";
+    font-size: 19.2px;
+    line-height: 1.4;
+    font-weight: 400;
+  }
 }
-  
+
 /* Mobile Landscape 가로 */
 
-@media only screen and (min-width:480px) and (max-width:767px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  h1 {
+    font-family: "Noto Sans KR";
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
 
-      h1 { font-family: 'Noto Sans KR'; font-size: 28px; line-height: 1.2; font-weight: 700; }
+  h2 {
+    font-family: "Noto Sans KR";
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: 500;
+  }
 
-      h2 { font-family: 'Noto Sans KR'; font-size: 26px; line-height: 1.2; font-weight: 500; }
-      
-      h3 { font-family: 'Noto Sans KR'; font-size: 18px; line-height: 1.4; font-weight: 400; }
-      
-      h4 { font-family: 'Noto Sans KR'; font-size: 19.2px; line-height: 1.4; font-weight: 400; }
+  h3 {
+    font-family: "Noto Sans KR";
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 400;
+  }
 
-      p { font-family: 'Noto Sans KR'; font-size: 14px; line-height: 1.5; font-weight: 400; }
+  h4 {
+    font-family: "Noto Sans KR";
+    font-size: 19.2px;
+    line-height: 1.4;
+    font-weight: 400;
+  }
 
-
+  p {
+    font-family: "Noto Sans KR";
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
 }
-  
+
 /* Mobile Portrait 세로 */
 
-@media only screen and (max-width:479px) {
+@media only screen and (max-width: 479px) {
+  h1 {
+    font-family: "Noto Sans KR";
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
 
-      h1 { font-family: 'Noto Sans KR'; font-size: 28px; line-height: 1.2; font-weight: 700; }
+  h2 {
+    font-family: "Noto Sans KR";
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: 500;
+  }
 
-      h2 { font-family: 'Noto Sans KR'; font-size: 26px; line-height: 1.2; font-weight: 500; }
-      
-      h3 { font-family: 'Noto Sans KR'; font-size: 18px; line-height: 1.4; font-weight: 400; }
-      
-      h4 { font-family: 'Noto Sans KR'; font-size: 19.2px; line-height: 1.4; font-weight: 400; }
+  h3 {
+    font-family: "Noto Sans KR";
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 400;
+  }
 
-      p { font-family: 'Noto Sans KR'; font-size: 14px; line-height: 1.5; font-weight: 400; }
+  h4 {
+    font-family: "Noto Sans KR";
+    font-size: 19.2px;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+
+  p {
+    font-family: "Noto Sans KR";
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
 }
